@@ -9,8 +9,8 @@ export const RegistrerScreen = ( ) => {
 
 
     const [ values, handleInputChange ] = useForm({
-        name: 'David',
-        email: 'dlc_97@outlook.com',
+        name: '',
+        email: '',
         password1: '',
         password2: ''
     })
