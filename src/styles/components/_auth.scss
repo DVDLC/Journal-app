@@ -1,0 +1,78 @@
+
+.auth_main{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.auth_welcome-msg{
+    position: absolute;
+    top: 15rem;
+    font-size: 50px;
+    color: $pastel_blue;
+}
+
+.auth_box-container{
+    background-color: $ligth_grey;
+    box-shadow: 3px 3px $shadow_color;
+    border-radius: 2px;
+    padding: 20px;
+    width: 250px;
+}
+
+.auth_title{
+    color: $pastel_green;
+    margin-bottom: 20px;
+}
+
+.auth_input{
+    color: $dark_grey;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid $dark_grey;
+    font-size: 16px;
+    margin-bottom: 15px;
+    height: 20px;
+    width: 100%;
+
+    transition: border-bottom .3s ease;
+
+    &:focus{
+        border-bottom: 1px solid $pastel_blue;
+        color: $white;
+        outline: none;
+    }
+}
+
+.auth_social-networks{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.auth_alert-error{
+    background-color: $red_color;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.auth_text-p{
+    color: $white;
+    font-size: 13px;
+}
+
+.auth_forgot-password{
+    font-size: 12px;
+    cursor: pointer;
+}

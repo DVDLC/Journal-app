@@ -1,0 +1,61 @@
+@import './settings';
+
+*{
+    font-family: $font;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background-color: $primary-bkColor;
+    color: $white;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+main{
+    width: 100%;
+}
+
+.mt-1{
+    margin-top: 5px;
+}
+
+.mt-5{
+    margin-top: 20px;
+}
+
+.mb-1{
+    margin-bottom: 5px;
+}
+
+.mb-5{
+    margin-bottom: 20px;
+}
+
+.ponter{
+    cursor: pointer;
+}
+
+.typewriter-animation{
+
+    display: block;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 12ch;
+
+    animation: typing 2s steps(12),
+    blink .5s infinite step-end alternate;
+
+    overflow: hidden;
+
+    @keyframes typing {
+
+    from{ width: 0; }
+    }
+
+    @keyframes  blink {
+    50% { border-color: transparent }
+    }
+}

@@ -1,0 +1,14 @@
+.link{
+    text-decoration: none;
+    color: $dark_grey;
+
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+.link_auth-link{
+    color: $white;
+    font-size: 12px;
+}
+
